@@ -1,0 +1,33 @@
+
+.logoesCon{
+    max-width:100% !important;
+    background-color:#FAFAFA !important;
+}
+
+.imgLogo{
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+@media screen and (max-width: 780px) {
+    .imgLogo{
+        padding: 0px;
+        padding-top: 40px;
+        padding-right: 0px;
+        margin-left: 35px;
+        max-width: 80px;
+        max-height: 80px;
+        width: auto;
+        height: auto;
+    }
+
+    .l7{
+        margin-left: 40px;
+    }
+
+    .l8{
+        margin-left: 45px;
+    }
+}

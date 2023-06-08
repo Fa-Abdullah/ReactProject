@@ -1,0 +1,278 @@
+
+.conta{
+    height: 876px;
+    background: #12273D;
+    text-align: center;
+    align-items: center;
+    max-width:100%;
+    width:100%;
+    margin:0px;
+    height:100hv;
+    background-size: cover;
+}
+
+.testminCont{
+    text-align: center;
+    align-items: center;
+    padding:0px;
+    padding-top:110px;
+}
+
+.TestC{
+    width: 1005px;
+    height: 165px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 164px;
+    color: #EBEBEB;
+    opacity: 0.05;
+}
+
+.Test{
+    width: 295px;
+    height: 61px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #FFFFFF;
+    margin-left: 400px;
+    margin-top:-75px;
+}
+ 
+.small-box{
+    box-sizing: border-box;
+    width: 846px;
+    height: 430px;
+    background: #FFFFFF;
+    box-shadow: 5px 15px 33px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    margin-left:450px;
+}
+
+.testNameCon{
+    margin-top: 50px;
+    margin-left:300px;
+}
+
+.pp{
+    width: 601px;
+    height: 200px;
+    font-family: 'Laro';
+    display: block;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #272727;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 10px;
+    padding-top: 50px;
+}
+
+.img{
+    width: 189.39px;
+    height: 28.05px;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+.col2{
+    display: flex;
+}
+
+.testname{
+    width: 177.64px;
+    height: 49.08px !important;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px !important;
+    line-height: 150% !important;
+    text-align: center;
+    color: #12273D !important;
+    float: left;
+}
+
+.las{
+    width: 123.88px;
+    height: 42.07px;
+    font-family: 'Nunito Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #979797;
+    float: left;
+    margin-top: 10px;
+}
+
+.carT{
+    width: 342px;
+    height: 227px;
+    margin-left: 670px;
+    margin-top: -100px;
+}
+
+.testBtn{
+    background: none !important;
+    width: 36px !important;
+    height: 36px !important;
+    align-items:center !important;
+    align-content:center !important;
+    margin-Left:50px !important;
+    margin-right:50px !important;
+    text-align:center !important; 
+    border: 1px solid #FFFFFF !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-top:210px !important;
+}
+
+.testBtn2{
+    margin-left: 400px !important;
+}
+
+
+.testdotActive{
+    background: #EBD8B8;
+}
+
+.testDots{
+    gap: 20px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    margin-left: 950px;
+}
+
+
+@media only screen and (max-width: 780px) {
+      .TestC{
+        width: 309px;
+        height: 44px;
+        font-size: 40px;
+        line-height: 51px;
+        margin-left: -465px;
+        padding-top: 35px;
+    }
+
+      .Test{
+        width: 197px;
+        height: 41px;
+        font-size: 32px;
+        line-height: 41px;
+        margin-left: -420px;
+        margin-top: 15px;
+      }
+
+    .testminCont{
+        padding:0px;
+    }
+
+    .conta{
+        height:auto;
+        overflow: hidden;
+    }
+
+    .testBtn{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        border: none !important;
+        width: auto !important;
+        height: 351px !important;
+        margin-top: 0px !important;
+        opacity: 0;
+    }
+
+    .testBtn2{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        border: none !important;
+        width: auto !important;
+        height: 351px !important;
+        opacity: 0;
+    }
+
+    .small-box{
+        width: 323px;
+        height: 351px;
+        box-shadow: 5px 15px 33px rgba(0, 0, 0, 0.1);
+        margin-left: 0px;
+    }
+
+    .pp{
+        width: 220px;
+        height: 178px;
+        font-size: 14px;
+        line-height: 150%;
+        color: #272727;
+        margin-left: 40px;
+        margin-top: 10px;
+        margin-left: 50px;
+        padding-top: 25px;
+    }
+
+    .teststar{
+        width: 94px;
+        height: 13.93px;
+        margin-left: 20px;
+    }
+
+    .img {
+        width: 100px;
+        height: 15px;
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+
+    .col2 {
+        display: block;
+    }
+
+    .testname {
+        width: 177.64px;
+        height: 49.08px;
+        font-size: 20px !important;
+        line-height: 150% !important;
+        text-align: center;
+        color: #12273D !important;
+        float: none;
+        margin-left: -220px;
+        margin-top: -15px;
+      }
+    
+      .las {
+        width: 123.88px;
+        height: 42.07px;
+        font-family: 'Nunito Sans';
+        font-style: italic;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #979797;
+        float: none;
+        margin-top: -28px;
+        margin-left: -190px;
+      }
+    
+      .carT {
+        width: 104px;
+        height: 69px;
+        margin-left: 78%;
+        margin-top: -120px;
+      }
+    
+      .testDots {
+        display: none;
+      }  
+}
+

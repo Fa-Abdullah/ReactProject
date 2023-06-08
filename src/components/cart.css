@@ -1,0 +1,99 @@
+.cartcon{
+    background:  #12273D;
+    mix-blend-mode: multiply;
+}
+
+.deleteAll{
+    width:190px !important;
+    height:41px !important;
+    left: 50% !important;
+    bottom: 0 !important;
+    background: #741906 !important;
+    transform: translateX(-50%) !important;
+    border-radius: 4px !important;
+    border:none !important;
+    position:absolute !important;
+    margin-bottom:15px !important;
+}
+
+.minCart{
+    display: flex;
+    background-color: #fff;
+    width:"331.333" !important;
+    height:"114.333" !important;
+    margin-top:"20px" !important;
+    margin-bottom:"3px" !important;
+}
+
+.cartdata{
+    margin-bottom:15px;
+}
+
+.cartClass{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #741906;
+    margin-top:13px;
+}
+
+.cartName{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(35, 34, 34, 0.96);
+    margin-top:-5px;
+}
+
+.btnCont{
+    gap:10px;
+    margin-left:15px;
+}
+
+.minusBtn{
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border-top-right-radius:0px !important;
+    border-bottom-right-radius:0px !important;
+    background-color:#741906 !important;
+    border:none !important;
+    width:40px !important;
+    height:35px !important;
+    color: #fff;
+}
+
+.plusBtn{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius:4px !important;
+    border-bottom-right-radius:4px !important;
+    background-color:#741906 !important;
+    border:none !important;
+    width:40px !important;
+    height:35px !important;
+    color: #fff;
+}
+
+.remove{
+    background:none !important;
+    border:none !important;
+    height:21px !important;
+    width:18px !important;
+    margin-top:-20px !important;
+    margin-left: auto;
+}
+
+.cartImg{
+    height:80px;
+    width:140px;
+    object-fit:cover;
+    margin-top:20px;
+    margin-left: 50px;
+}
+

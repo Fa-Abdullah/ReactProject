@@ -1,0 +1,125 @@
+.title{
+    width: 199px;
+    height: 38px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 63px;
+    margin-left: 185px;
+}
+
+.ps{
+    width: 389px;
+    height: 24px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500; 
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 90px;
+
+}
+
+.but{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 28px;
+    gap: 10px;
+    width: 142px;
+    height: 45px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+    margin-left: 213.5px;
+    justify-content: center;
+}
+
+.btn:hover{
+    color: #FFFFFF;
+    opacity: 0.03;
+}
+
+.carWrite{
+    width: 33.33333333333333333333333333333333333333333333333333333%;
+    height: 270px;
+    margin: 0;
+    padding: 0;
+    flex: none;
+    background-size:100% 100%;
+    background-repeat:no-repeat ;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.car{
+    width: 33.33333333333333333333333333333333333333333333333333333%;
+    height: 270px;
+    margin: 0;
+    padding: 0;
+    flex: none;
+    background-size:100% 100%;
+    background-repeat:no-repeat ;
+}
+
+@media screen and (max-width: 780px) {
+    .car{
+        min-width: 100%;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .carWrite{
+        min-width: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    .not{
+        display:none;
+    }
+
+    .images{
+        overflow: hidden;
+    }
+
+    .write{
+        margin-left: -80px;
+    }
+
+    .title{
+        width: 202px;
+        height: 44px;
+        font-size: 32px;
+        line-height: 44px;
+    }
+
+    .ps{
+        width: 342px;
+        height: 54px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        margin-left: 120px;
+    }
+}
+

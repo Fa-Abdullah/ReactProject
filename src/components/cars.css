@@ -1,0 +1,232 @@
+
+.cont{
+    background-color:#FAFAFA;
+    height: 876px;
+    text-align: center;
+}
+
+.CARS{
+    width: 343px;
+    height: 165px;
+    right: 549px;
+    top: 2900px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 164px;
+    color: #EBEBEB;
+    text-align: center;
+}
+
+.Cars{
+    width: 105px;
+    height: 61px;
+    left: calc(50% - 105px/2 - 0.5px);
+    top: 3004px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #741906;
+    text-align: center;
+    margin-top:-80px;
+    margin-left:120px;
+
+}
+
+.con{
+    display: flex;
+    background-color: #fff;
+}
+
+.l-a{
+    box-sizing: border-box;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    /* left: 81px;
+    top: 3372px; */
+    background: #741906;
+    border: 1px solid #FFFFFF;
+    /* transform: rotate(-180deg); */
+}
+
+.r-a{
+    box-sizing: border-box;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    /* left: 1359px;
+    top: 3372px; */
+    background: #741906;
+    border: 1px solid #FFFFFF;
+}
+
+.carsBtn{
+    width: 36px !important;
+    height: 36px !important;
+    align-items:center !important;
+    align-content:center !important;
+    margin-Left:50px !important;
+    margin-right:50px !important;
+    text-align:center !important;
+    background: #741906 !important;
+    border: 1px solid #FFFFFF !important;
+    border-radius: 50% !important;
+    transform: rotate(-180deg) !important;
+    display: flex !important;
+    justify-content: center !important;
+    margin-top:210px !important;
+}
+
+.Carcon{
+    align-items:center;
+    align-content:center;
+    text-align:center;
+    box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.Carimg{
+    width: 311px !important;
+    height:190px !important;
+    margin-top:30px;
+}
+
+.Carmincon{
+    align-items:center !important;
+    text-align:center !important;
+    align-content:center !important;
+}
+
+.Class{
+    width: 151px !important;
+    height: 33px !important;
+    font-family: 'Nunito Sans' !important;
+    color: #741906 !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 33px !important;
+    margin-bottom:3px !important;
+}
+
+.descCar{
+    color: rgba(35,34,34,0.96) !important;
+    margin-bottom:47px !important;
+    font-family: 'Nunito Sans' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 150% !important;
+}
+
+.Carname{ 
+    font-size: 12px !important;
+    line-height: 16px !important;
+    color: rgba(35, 34, 34, 0.96) !important;
+    height: 5px !important;
+}
+
+.Text{
+    margin-bottom:2rm;
+}
+
+.smallCon{
+    gap:10px;
+}
+
+.seatCon{
+    display:flex;
+    gap:15px;
+}
+
+.lag{
+    width: 19.07px;
+    height: 15.75px;
+    margin-top: 5px;
+}
+
+.lagCon{
+    display:flex;
+    gap:15px;
+    margin-top:15px;
+}
+
+.btnCon{
+
+}
+/* borderTopLeftRadius: "4px", borderBottomLeftRadius: "4px",borderTopRightRadius:"0px",borderBottomRightRadius:"0px",backgroundColor:"#741906"
+                        ,border:"none",width:"40px",height:"35px" */
+.CarBtn1{
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    border-top-right-radius:0px !important;
+    border-bottom-right-radius:0px !important;
+    background-color:#741906 !important;
+    border:none !important;
+    width:40px !important;
+    height:35px !important;
+    color: #fff !important;
+}
+
+.CarBtn2{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius:4px !important;
+    border-bottom-right-radius:4px !important;
+    background-color:#741906 !important;
+    border:none !important;
+    width:40px !important;
+    height:35px !important;
+    color: #fff !important;
+}
+
+.dot{
+    width: 17px;
+    height: 17px;
+    background: #E5E5E5;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-radius: 50%;
+}
+
+.dotActive{
+    background: #741906;
+}
+
+.carsDots{
+    gap: 20px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    margin-left: 870px;
+}
+
+/* .phoneRow{
+    display: none;
+}
+
+.phBtn{
+    display: none;
+}
+
+@media screen and (max-width: 780px) {
+    .lapRow{
+        display: none;
+    }
+
+    .phoneRow{
+        display: contents;
+    }
+
+    .lapBtn{
+        display: none;
+    }
+
+    .phBtn{
+        display: contents;
+    }
+} */

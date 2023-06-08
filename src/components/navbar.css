@@ -1,0 +1,149 @@
+
+.homeItem{
+    font-family: 'Noto Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 33px !important;
+    color: #FFFFFF !important;
+    margin-right: 15px !important;
+    top: 22px;
+    padding-top: 10px;
+    min-width: 80px;
+}
+
+.secItem{
+    font-family: 'Noto Sans' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 33px !important;
+    color: #12273D !important;
+    margin-right: 15px !important;
+    top: 22px;
+    padding-top: 10px;
+    min-width: 80px;
+}
+
+.navhome{
+    color: #fff !important;
+}
+
+.secNav{
+    color: #12273D;
+}
+
+.active{
+    min-width: 88px !important;
+    height: 42px !important;
+    background-color: #741906 !important;
+    font-style: normal !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    border-radius: 5px !important;
+    line-height: 33px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    display: table-cell !important;
+}
+
+.homelogo{
+    width: 211px;
+    height: 69px;
+    left: 78px;
+    top: 22px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left:65px;
+}
+
+.homelogo:hover{
+    color: #FFFFFF;
+}
+
+.seclogo{
+    width: 211px;
+    height: 69px;
+    left: 78px;
+    top: 22px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 61px;
+    color: #12273D;
+    margin-left:65px;
+    text-decoration: none;
+}
+
+.seclogo:hover{
+    color: #12273D;
+}
+
+.cartBtn{ 
+    background: transparent !important;
+    border:none !important;
+    margin-right: 70px;
+}
+
+.homenum{
+    width:25.27px;
+    height:25.27;
+    border-radius:5px;
+    text-align:center;
+    color:#223F5C;
+    background:#F8D7A4;
+    margin-top:-52px;
+    margin-left:37px;
+    position: absolute;
+}
+
+.secnum{
+    width:25.27px;
+    height:25.27;
+    border-radius:5px;
+    text-align:center;
+    color: #fff;
+    background:#12273D;
+    margin-top:-52px;
+    margin-left:37px;
+    position: absolute;
+}
+
+@media screen and (max-width: 780px) {
+    .cartBtn{
+        margin-left:250px !important;
+        margin-top: -90px;
+    }
+
+    .homelogo,.seclogo{
+        margin-left:15px !important;
+        margin-top: 10px;
+        color: #12273D;
+    }
+
+    .menuBtn{
+        border: none !important;
+    }
+
+    .homenum,.secnum{
+        margin-left:287px !important;
+        margin-top: -85px;
+        color: #fff;
+        background:#12273D;
+    }
+
+    .navhome,.secNav{
+        padding-top: 15px !important;
+        padding-bottom: -30px !important;
+        margin: 0px;
+        overflow: hidden;
+        background-color: #fff;
+    }
+}

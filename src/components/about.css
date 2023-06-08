@@ -1,0 +1,111 @@
+.aboutcont{
+    display: flex;
+    clear: both;
+    margin-left:200px;
+    margin-top:80px;
+}
+
+/* .aboutmin{
+    float: left;
+    width:50%;
+} */
+
+.ABOUT{
+    width: 698px;
+    height: 165px;
+    left: 78px;
+    top: 1088px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 164px;
+    color: #EBEBEB;
+}
+
+.about{
+    width: 159px;
+    height: 72px;
+    left: 98px;
+    top: 1192px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: '72px';
+    color: #741906;
+    margin-top:-77px;
+    margin-left:15px;
+}
+
+.p{
+    width: 639px;
+    height: 487px;
+    left: 96px;
+    top: 1305px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #232730;
+}
+
+.imgsCol{
+    width: 50%;
+    /* float:left; */
+    margin-left:0px;
+}
+
+.groundimg{
+    height: 700px;
+    width: fit-content;
+    margin-left:190px;
+    margin-top: -90px;
+}
+
+.roadimg{
+    margin-top:-650px;
+    margin-left:330px;
+    /* width: fit-content; */
+}
+
+
+@media screen and (max-width: 780px) {
+    .ABOUT{
+        width: 360px;
+        height: 85px;
+        font-size: 64px;
+        line-height: 82px;
+        margin-left: 0px;
+    }
+
+    .about{
+        width: 91px;
+        height: 41px;
+        font-size: 32px;
+        line-height: 41px;
+        margin-left: 115px;
+        margin-top: -58px !important;
+    }
+
+    .p{
+        width: 331px;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        color: #232730;
+        margin-left: 0px;
+    }
+
+    .imgsCol{
+        display: none;
+    }
+
+    .aboutcont{
+        margin-left: 20px;
+        align-items: center;
+        align-content: center;
+    }
+}
