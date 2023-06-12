@@ -33,7 +33,7 @@ const Footer = (props) => {
 
   return (
     <React.Fragment>
-      <div className='row footCont' style={{}}>
+      <div className='row footCont' id='footer' style={{}}>
       {/* 1 */}
       <div className='col focon1' style={{}}>
         <p className='titlecol1' style={{}}>
@@ -69,7 +69,7 @@ const Footer = (props) => {
               </button>
             </div>
           </div>
-          <br/><br/>
+          <br/><br/> 
       </div>
             {/* 3 */}
       <div className='col con3' style={{}}>

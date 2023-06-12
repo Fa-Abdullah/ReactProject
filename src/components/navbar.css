@@ -1,4 +1,3 @@
-
 .homeItem{
     font-family: 'Noto Sans' !important;
     font-style: normal !important;
@@ -25,12 +24,24 @@
     min-width: 80px;
 }
 
+.sticky {
+    position: fixed !important;
+    top: 0;
+    display: flex;
+}
+
 .navhome{
     color: #fff !important;
+    position: fixed !important;
+    top: 0px;
+    width: 100% !important;
 }
 
 .secNav{
-    color: #12273D;
+    color: #12273D !important;
+    position: fixed !important;
+    background-color: #fff;
+    width: 100% !important;
 }
 
 .active{
@@ -116,10 +127,22 @@
     position: absolute;
 }
 
+.activenum{
+    color: #fff !important;
+    background-color: #741906 !important;
+    width:25.27px;
+    height:25.27;
+    border-radius:5px;
+    text-align:center;
+    margin-top:-52px;
+    margin-left:37px;
+    position: absolute;
+}
+
 @media screen and (max-width: 780px) {
     .cartBtn{
-        margin-left:250px !important;
-        margin-top: -90px;
+        margin-left:243px !important;
+        margin-top: -95px;
     }
 
     .homelogo,.seclogo{
@@ -130,20 +153,77 @@
 
     .menuBtn{
         border: none !important;
+        height: 40px;
+        margin-right: 5px !important;
     }
 
     .homenum,.secnum{
-        margin-left:287px !important;
-        margin-top: -85px;
+        margin-left:280px !important;
+        margin-top: -90px;
         color: #fff;
         background:#12273D;
     }
 
     .navhome,.secNav{
         padding-top: 15px !important;
-        padding-bottom: -30px !important;
-        margin: 0px;
-        overflow: hidden;
+        padding-bottom: -70px !important;
         background-color: #fff;
+        position: fixed !important;
+        display: flex !important;
+        top: 0;
+    }
+
+    .menu{
+        position: absolute;
+        background-color: #020920e5 !important;
+        width: 243px !important;
+        margin-top: 908px;
+        right: 0;
+        height: 86.2vh;
+        overflow-y: scroll;
+        z-index: 1;
+    }
+
+    .minMenu{
+        margin-top: 160px;
+        gap: 12px;
+        margin-left: 0%;
+        padding: 0px !important;
+        overflow: hidden;
+    }
+
+    .menuItem,.homeItem,.secItem{
+        width: 243px !important;
+        height: 48px !important;
+        font-family: 'Nunito Sans' !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        color: #FFFFFF !important;
+        text-align: left !important;
+        padding-left: 50px !important;
+        display: block;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .active{
+        width: 243px !important;
+        height: 48px !important;
+        min-width: none;
+        font-family: 'Nunito Sans' !important;
+        font-style: normal !important;
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+        color: #FFFFFF !important;
+        background-color: #741906 !important;
+        border-radius: 0px !important;
+        text-align: left !important;
+        display: block;
+        padding-left: 50px !important;
+        margin-top: 12px;
+        margin-bottom: 12px;
     }
 }

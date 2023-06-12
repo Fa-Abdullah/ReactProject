@@ -32,7 +32,10 @@ const Imgs = () => {
                   <p className='ps'>
                     Disruptive, avant-garde, futuristic, innovative.
                   </p>
-                  <Link to='/footer' className='but' type='button'>Contact</Link>
+                  {/* <Link to='/footer' className='but' type='button'>Contact</Link> */}
+                  <div className='but' onClick={(e) => {e.preventDefault(); window.location.replace("/home/#footer")}}>
+                    <span>Contact</span>
+                  </div>
                 </div>
               </div>
               <div style={{backgroundImage:`url(${car32})`}} className='car not'></div>

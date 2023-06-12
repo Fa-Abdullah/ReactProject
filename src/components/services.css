@@ -1,7 +1,7 @@
 .contain{
     text-align:center;
     left: 0px;
-    top: 2018px;
+    padding-top: 150px !important;
     background: #DFDFDF;
     background-blend-mode: multiply;
     max-width:100%;

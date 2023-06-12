@@ -3,6 +3,8 @@
     background-color:#FAFAFA;
     height: 876px;
     text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px !important;
 }
 
 .CARS{
@@ -99,6 +101,8 @@
     align-items:center !important;
     text-align:center !important;
     align-content:center !important;
+    position: relative;
+    z-index: 0;
 }
 
 .Class{
@@ -155,11 +159,6 @@
     margin-top:15px;
 }
 
-.btnCon{
-
-}
-/* borderTopLeftRadius: "4px", borderBottomLeftRadius: "4px",borderTopRightRadius:"0px",borderBottomRightRadius:"0px",backgroundColor:"#741906"
-                        ,border:"none",width:"40px",height:"35px" */
 .CarBtn1{
     border-top-left-radius: 4px !important;
     border-bottom-left-radius: 4px !important;
@@ -202,31 +201,86 @@
     gap: 20px;
     margin-top: 90px;
     margin-bottom: 100px;
-    margin-left: 870px;
+    margin-left: 905px;
+    padding-bottom: 30px;
 }
 
-/* .phoneRow{
-    display: none;
+.lapRow {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
 }
 
-.phBtn{
+.phoneRow{
     display: none;
 }
 
 @media screen and (max-width: 780px) {
+    .cont{
+        overflow: hidden;
+    }
+    
+    .CARS{
+        width: 185px;
+        height: 85px;
+        font-size: 64px;
+        line-height: 82px;
+        margin-left: -670px;
+        padding-top: 40px;
+    }
+
+    .Cars{
+        width: 70px;
+        height: 41px;
+        font-size: 32px;
+        line-height: 41px;
+        margin-left: -605px;
+        margin-bottom: 50px;
+        margin-top: -18px; 
+    }
+
+    .carsBtn{
+        display: none !important;
+    }
+
+    .Carcon{
+        margin-left: 5px !important;
+        margin-right: 0px !important;
+        height: 550px;
+        margin-bottom: 50px;
+    }
+
     .lapRow{
-        display: none;
+        display: none !important;
     }
 
-    .phoneRow{
-        display: contents;
+    .carCols {
+        flex: 0 0 100%;
+        scroll-snap-align: start;
+    }
+    
+    .carsDots{
+        display: none !important;
     }
 
-    .lapBtn{
-        display: none;
-    }
-
-    .phBtn{
-        display: contents;
-    }
-} */
+    .phoneRow {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+      }
+      
+      .phoneRow::-webkit-scrollbar {
+        width: 20px;
+      }
+      
+      .phoneRow::-webkit-scrollbar-thumb {
+        background-color: #741906;
+        height: 70px;
+        border-radius: 5px;
+      }
+}

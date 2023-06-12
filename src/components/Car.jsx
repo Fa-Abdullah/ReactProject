@@ -13,11 +13,10 @@ const OneCar = ({image,name,Class,description,seats,luggage }) => {
 
     const imgSrc = require(`../dataImgs/${image}`);
 
-    console.log(imgSrc)
     return (
     <Card className='Carcon' style={{}}>
         <Card.Img className='Carimg' src={imgSrc} variant='top' style={{}}/>
-        <Card.Body>
+        <Card.Body> 
             <Card.Title>
                 <span className='Class' style={{}}>
                         {Class}

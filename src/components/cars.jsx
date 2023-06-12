@@ -38,40 +38,31 @@ const CarList = () => {
     }
   }
 
-  // const [startPH ,setStartPH] = useState(0);
-
-  // const [endPH , setEndPH] = useState(1);
-
-  // const displayPH = cars.slice(startPH ,endPH);
+  // const [slideIndex, setSlideIndex] = useState(0);
   
-  // const handleNextClickPH = () => {
-  //   const newStart = startPH + 1;
-  //   const newEnd = endPH + 1;
-  //   if (newEnd <= cars.length) {
-  //     setStartPH(newStart);
-  //     setEndPH(newEnd);
+  // const display = [cars[slideIndex]];
+
+  // const handleNextClick = () => {
+  //   if (slideIndex < cars.length - 1) {
   //     setSlideIndex(slideIndex + 1);
   //   }
   // }
   
-  // const handlePreviousClickPH = () =>{
-  //   const newStart = startPH - 1;
-  //   const newEnd = endPH - 1;
-  //   if (newStart >= 0) {
-  //     setStartPH(newStart);
-  //     setEndPH(newEnd);
+  // const handlePreviousClick = () =>{
+  //   if (slideIndex > 0) {
   //     setSlideIndex(slideIndex - 1);
   //   }
   // }
 
-  const carsdots = Array.from({ length: 4 }, (_, index) => index);
+   const carsdots = Array.from({ length: 4 }, (_, index) => index);
+  // const carsdots = Array.from({ length: cars.length }, (_, index) => index);
 
   const dotClassName = "dot";
 
   return (
     <React.Fragment>
      <>
-     <div className='cont' style={{}}>
+     <div className='cont' id='cars' style={{}}>
         <div style={{marginLeft:"780px"}}>
           <p className='CARS'>
             CARS
@@ -85,35 +76,27 @@ const CarList = () => {
         <Button className='lapBtn carsBtn' onClick={handlePreviousClick} style={{}}>
           <img src={right} alt='' style={{width: "8.49px"}}/>
         </Button>
-
-        {/* <Button className='phBtn carsBtn' onClick={handlePreviousClickPH} style={{}}>
-          <img src={right} alt='' style={{width: "8.49px"}}/>
-        </Button> */}
        
-          <Row className='lapRow g-4' style={{paddingRight:"-10px",paddingLeft:"-10px"}}>
+          <Row className='lapRow g-4' style={{}}>
             {display.map(item => (
-              <Col key={item.name} style={{paddingRight:"-10px",paddingLeft:"-10px"}}>
+              <Col className='carCols' key={item.name} style={{}}>
                 <OneCar {...item}/>
               </Col>
             ))}
           </Row>
 
-          {/* <Row className='phoneRow g-4' style={{paddingRight:"-10px",paddingLeft:"-10px"}}>
-            {displayPH.map(item => (
-              <Col key={item.name} style={{paddingRight:"-10px",paddingLeft:"-10px"}}>
+          <Row className='phoneRow' style={{}}>
+            {cars.map(item => (
+              <Col className='carCols' key={item.name} style={{}}>
                 <OneCar {...item}/>
               </Col>
             ))}
-          </Row>     */}
+          </Row>
 
         <Button className='lapBtn carsBtn' onClick={handleNextClick} style={{}}>
           <img src={left} alt='' style={{width: "8.49px"}}/>
         </Button>
-{/* 
-        <Button className='phBtn carsBtn' onClick={handleNextClickPH} style={{}}>
-          <img src={left} alt='' style={{width: "8.49px"}}/>
-        </Button> */}
-
+ 
         </div>
 
         <div className='carsDots d-flex' style={{}}>

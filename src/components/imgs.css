@@ -50,6 +50,7 @@
     align-items: center;
     margin-left: 213.5px;
     justify-content: center;
+    cursor: pointer;
 }
 
 .btn:hover{

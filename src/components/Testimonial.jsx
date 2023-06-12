@@ -27,7 +27,7 @@ const Testimonial = ({description,name}) => {
                 <img src={annieCar} alt='' className='carT'/>
             </div>
        
-    
+     
   )
 } 
 

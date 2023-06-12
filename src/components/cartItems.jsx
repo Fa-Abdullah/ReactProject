@@ -14,10 +14,8 @@ const CartItem = ({name ,quantity}) => {
     
     const imgSrc = require(`../dataImgs/${cart.image}`);
 
-    console.log(cartItems)
-
   return (
-    <Stack direction='horizontial' className='d-flex align-item-center cartCont' gap={2} style={{marginTop:"20px",marginBottom:"3px"}}>
+    <Stack direction='horizontial' className='d-flex align-item-center cartContain' gap={2} style={{marginTop:"20px",marginBottom:"3px"}}>
        <div className='minCart' style={{}}>
         <div>
                 <div className='cartdata' style={{}}>

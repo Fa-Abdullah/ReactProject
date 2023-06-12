@@ -1,7 +1,7 @@
 
 .homeCon{
     max-width:100% !important;
-    margin-top:-110px !important;
+    margin-top:-0px !important;
 }
  
 .homeminCon{
@@ -16,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden !important;
 }
 
 .pa1{
@@ -68,6 +69,7 @@
     background: none !important; 
     margin-top: 40px !important; 
     margin-bottom: 75px !important;
+    cursor: pointer;
 }
 
 .homebtn:hover{
@@ -80,8 +82,8 @@ y */
 
 @media screen and (max-width: 780px) {
     .homeCon {
-        margin-top: 0px;
-        padding-top: 0px;
+        margin-top: 0px !important;
+        padding-top: -70px !important;
     }
 
     .homeminCon {

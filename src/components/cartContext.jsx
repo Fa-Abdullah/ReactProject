@@ -15,11 +15,11 @@ const CartProvider = ( {children} ) => {
     const openCart = () => {
         setIsOpen(true);
     }
-
+ 
     const closeCart = () => {
         setIsOpen(false);
     }
-                                            //intialCartItems\/
+
     const [cartItems, setCartItems] = useState(intialCartItems);
 
     useEffect(() => {
@@ -33,8 +33,6 @@ const CartProvider = ( {children} ) => {
           return total;
         }
       }, 0);
-
-    console.log("cartQuantity:", cartQuantity);
 
     const getItemsQuantity = (name) =>{
         return(

@@ -7,10 +7,9 @@ import './cart.css';
 const ShoppingCart = ({isOpen}) => {
   const {cartItems,removeAll,closeCart} = useShoppingCart();
 
-  console.log(cartItems)
-
   return (
-    <Offcanvas className="offc" show={isOpen} placement='end' onHide={closeCart}>
+    <div className="offcDiv">
+      <Offcanvas className="offc" show={isOpen} placement='end' onHide={closeCart}>
         <Offcanvas.Body className='cartcon' style={{}}>
             {Array.from(cartItems).map((item)=> (
                 <CartItem key={item.name} name={item.name} quantity={item.quantity} {...item}/>
@@ -20,8 +19,9 @@ const ShoppingCart = ({isOpen}) => {
                 Delete All
             </Button>
         </Offcanvas.Body>
-    </Offcanvas>
+      </Offcanvas>
+    </div>
   )
 }
-
+  
 export default ShoppingCart

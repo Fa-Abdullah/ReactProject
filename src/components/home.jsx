@@ -17,7 +17,7 @@ const Home = () => {
   
   return (
     <React.Fragment>
-      <div className='homeCon' style={{}}>
+      <div id='hero' className='homeCon'  style={{}}>
       <div className='homeminCon' style={{backgroundImage:`url(${backgroundImage})`,}}>
        <div className='pa1Con' style={{}}>
         <p className='pa1' style={{}}>
@@ -34,11 +34,20 @@ const Home = () => {
           </p>
           </div>
           <div className='btnDivHome' style={{}}>
-            <Nav.Link as={Link}className='homebtn' to='/cars' class="btn-lg btn-default my-button my-button-active" style={{}}>
-              Discover ↗
-            </Nav.Link>
+            <div className='homebtn' onClick={(e) => {e.preventDefault(); window.location.replace("/home/#cars")}}>
+              <span>Discover ↗</span>
+            </div>
           </div>     
       </div>
+          <React.StrictMode>
+            <About/>
+            <Services/>
+            <CarList/>
+            <Imgs/>
+            <Testimonials/>
+            <Logoes/>
+            <Footer/>
+          </React.StrictMode>
       </div>
 
     </React.Fragment>

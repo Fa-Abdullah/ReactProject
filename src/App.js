@@ -16,6 +16,7 @@ import { Link, Element } from 'react-scroll';
 //import joi from 'joi-browser';
 import axios from 'axios'
 import ShoppingCart from './components/shoppingCarts';
+import Display from "./components/display";
 
 
 const App = () => {
@@ -30,22 +31,29 @@ const App = () => {
 
   return (
     <CartProvider>
-      {/* <> */}
+      
         <Navbar />
       <Container className="container">
+       
+        <Routes>
+            <Route path="/home/" element={<Home />}/>
+            <Route path="/" element={<Navigate replace to="/home/#hero" />} />
+            <Route path="/home" element={<Navigate replace to="/home/#hero" />} />
+            <Route path="/reponame" element={<Navigate replace to="/home/#hero" />} />
+            <Route path="/about" element={<About />}/>
+            <Route path="/services" element={<Services />}/>
+            <Route path="/cars" element={<CarList />}/>
+            <Route path="/footer" element={<Footer />}/>
+            <Route path="/testimonials" element={<Testimonials />}/>
+            <Route path="/logoes" element={<Logoes/>}/>
+            <Route path="/imgs" element={<Imgs/>}/>
+            <Route path="/display" element={<Display/>}/>
+        </Routes>
 
-       <Routes>
-          <Route path="/home" element={<Home ref={homeRef} />}/>
-          <Route path="/" element={<Navigate replace to="/home" />} />
-          <Route path="/about" element={<About ref={aboutRef} />}/>
-          <Route path="/services" element={<Services ref={servicesRef} />}/>
-          <Route path="/cars" element={<CarList ref={carRef} />}/>
-          <Route path="/footer" element={<Footer ref={footerRef} />}/>
-          <Route path="/testimonials" element={<Testimonials />}/>
-          <Route path="/logoes" element={<Logoes/>}/>
-          <Route path="/imgs" element={<Imgs/>}/>
-       </Routes>
+       
 
+        {/* <Display /> */}
+       
         {/* <React.StrictMode>
           <Home/>
           <About/>
@@ -53,8 +61,9 @@ const App = () => {
           <CarList/>
           <Footer/>
         </React.StrictMode> */}
-                    
+          
       </Container>
+
       {/* </> */}
     </CartProvider>
   );

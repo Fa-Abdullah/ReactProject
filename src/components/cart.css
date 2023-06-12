@@ -1,6 +1,8 @@
-.cartcon{
-    background:  #12273D;
-    mix-blend-mode: multiply;
+.offc{
+    background: #020920e5 !important;
+    margin-top: 85px !important;
+    padding: 0 !important;
+    width: 412px !important;
 }
 
 .deleteAll{
@@ -14,7 +16,8 @@
     border:none !important;
     position:absolute !important;
     margin-bottom:15px !important;
-}
+    mix-blend-mode: normal !important;
+} 
 
 .minCart{
     display: flex;
@@ -23,6 +26,7 @@
     height:"114.333" !important;
     margin-top:"20px" !important;
     margin-bottom:"3px" !important;
+    mix-blend-mode: normal !important;
 }
 
 .cartdata{

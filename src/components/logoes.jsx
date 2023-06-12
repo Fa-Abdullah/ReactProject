@@ -22,7 +22,7 @@ const Logoes = () => {
         <img className='imgLogo l7' src={logo7} alt='' style={{}}/>
         <img className='imgLogo l8' src={logo8} alt='' style={{}}/>
       </div>
-    </React.Fragment>
+    </React.Fragment> 
   )
 }
 

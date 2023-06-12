@@ -6,7 +6,7 @@
 
 .imgLogo{
     padding-left: 100px;
-    padding-right: 50px;
+    padding-right: 40px;
     padding-top: 140px;
     padding-bottom: 140px;
 }
@@ -19,8 +19,12 @@
         margin-left: 35px;
         max-width: 80px;
         max-height: 80px;
-        width: auto;
+        width: auto; 
         height: auto;
+    }
+
+    .logoesCon{
+        padding-bottom: 45px;
     }
 
     .l7{

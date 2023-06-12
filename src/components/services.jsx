@@ -10,7 +10,7 @@ const Services = () => {
 
   return (
     <React.Fragment>
-      <div className="contain" style={{backgroundImage:`url(${car4})`}}>
+      <div className="contain" ref={Services} id='services'  style={{backgroundImage:`url(${car4})`}}>
         <div className='minContain' style={{}}>
         <div className='servTitle' style={{}}>
         <p className='SERV' style={{}}>
