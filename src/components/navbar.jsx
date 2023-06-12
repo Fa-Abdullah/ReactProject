@@ -105,7 +105,7 @@ const Navbar = (props) => {
           setnum('secnum');
         }else if (scrollY === 0){
           setnum('homenum');
-        }
+        } 
       }, [scrollY, num])
 
     const [showMenu, setShowMenu] = useState(false);
