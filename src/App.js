@@ -38,6 +38,7 @@ const App = () => {
         <Routes>
             <Route path="/" element={<Navigate replace to="/home/#hero" />} />
             <Route path="/home/" element={<Home />}/>
+            <Route path="/home/#*" element={<Navigate replace to="/home" />} />
             <Route path="/home" element={<Navigate replace to="/home/#hero" />} />
             <Route path="/reponame" element={<Navigate replace to="/home/#hero" />} />
             <Route path="/ReactProject" element={<Navigate replace to="/home/#hero" />} />
