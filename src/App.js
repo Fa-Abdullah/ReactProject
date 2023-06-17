@@ -49,6 +49,7 @@ const App = () => {
             <Route path="/logoes" element={<Logoes/>}/>
             <Route path="/imgs" element={<Imgs/>}/>
             <Route path="/display" element={<Display/>}/>
+            <Route path="/*" element={<Navigate replace to="/home/#hero" />} />
         </Routes>
 
        
