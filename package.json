@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Fa-Abdullah.github.io/ReactProject",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,10 +28,10 @@
     "yarn": "^1.22.19"
   },
   "scripts": {
-    "predepoly": "npm run build",
+    "predepoly": "npm run build --quiet",
     "deploy": "gh-page -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build --no-warnings",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

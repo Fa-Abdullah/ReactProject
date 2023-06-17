@@ -1,8 +1,8 @@
-import React ,{ Component , useEffect , useRef, useState } from 'react'
-import { Link , NavLink , useLocation } from 'react-router-dom';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Offcanvas from 'react-bootstrap/Offcanvas';
-import { Nav,Container, Navbar as NavbarBs, Button } from 'react-bootstrap';
+import React ,{ /*Component ,*/ useEffect , /*useRef,*/ useState } from 'react'
+import { /*Link ,*/ NavLink /*, useLocation*/ } from 'react-router-dom';
+//import NavDropdown from 'react-bootstrap/NavDropdown';
+//import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Nav/*,Container, Navbar as NavbarBs*/, Button } from 'react-bootstrap';
 import './navbar.css'
 import "@fortawesome/free-solid-svg-icons";
 import '@fortawesome/react-fontawesome';
@@ -10,12 +10,12 @@ import whiteCart from '../vector/Group.png';
 import redCart from '../vector/red-Group.png';
 import blueCart from '../vector/blue-Group.png';
 import { useShoppingCart } from './cartContext';
-import ShoppingCart from './shoppingCarts';
+//import ShoppingCart from './shoppingCarts';
 import menubar from '../vector/Vectormenu.png'
-import About from './about';
+//import About from './about';
 
 const Navbar = (props) => {
-  const location = useLocation();
+  //const location = useLocation();
   const [url, setUrl] = useState(window.location.pathname);
 
   useEffect(() => {
@@ -36,19 +36,18 @@ const Navbar = (props) => {
   
     const {isOpen,openCart,cartQuantity} = useShoppingCart();
 
-    const getActiveClass = (path) => {
-      if (location.pathname === path || location.pathname.startsWith(path + '/')) {
-        return 'active';
-      } else {
-        return '';
-      }
-    };
+    // const getActiveClass = (path) => {
+    //   if (location.pathname === path || location.pathname.startsWith(path + '/')) {
+    //     return 'active';
+    //   } else {
+    //     return '';
+    //   }
+    // };
 
-    const [activeItem, setActiveItem] = useState(null);
-
-    const handleItemClick = (menuItem) => {
-      setActiveItem(menuItem);
-    };
+    //const [activeItem, setActiveItem] = useState(null);
+    // const handleItemClick = (menuItem) => {
+    //   setActiveItem(menuItem);
+    // };
 
     // const navbarClass = top === 0 ? 'navbar navhome navbar-expand-lg' : 'navbar secNav shadow-sm navbar-expand-lg';
     const [scrollY, setScrollY] = useState(0);
@@ -110,12 +109,12 @@ const Navbar = (props) => {
 
     const [showMenu, setShowMenu] = useState(false);
 
-    const handleClickScroll = () => {
-      const element = document.getElementById('about');
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    };
+    // const handleClickScroll = () => {
+    //   const element = document.getElementById('about');
+    //   if (element) {
+    //     element.scrollIntoView({ behavior: 'smooth' });
+    //   }
+    // };
 
     const cartClick = () => {
       // setCart(redCart);

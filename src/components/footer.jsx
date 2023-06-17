@@ -5,13 +5,13 @@ import twitter from '../carsImgs/twitter.png';
 import locatin from '../carsImgs/phone8.png';
 import phone from '../carsImgs/phone.png';
 import email from '../carsImgs/email.png';
-import Testimonials from './testimonials';
+//import Testimonials from './testimonials';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faPenNib } from '@fortawesome/free-solid-svg-icons'
 // import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 // import Joi from "joi-browser"
 import './footer.css';
-import { useShoppingCart } from './cartContext';
+//import { useShoppingCart } from './cartContext';
 
 const Footer = (props) => {
 
@@ -25,7 +25,7 @@ const Footer = (props) => {
     localStorage.setItem('name', name);
   };
 
-  const savedName = localStorage.getItem('name');
+  //const savedName = localStorage.getItem('name');
   
   // if (document.querySelector('#footer').getBoundingClientRect().top <= 200) {
   //   return null;  

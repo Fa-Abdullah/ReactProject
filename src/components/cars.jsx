@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import './cars.css';
-import { Link } from 'react-router-dom';
-import { Button, Col, Row ,Range } from "react-bootstrap";
+//import { Link } from 'react-router-dom';
+import { Button, Col, Row /*,Range*/ } from "react-bootstrap";
 import cars from "../data/data.json";
 import OneCar from './Car';
 import right from '../carsImgs/last-right.png'

@@ -2,7 +2,7 @@ import React from 'react'
 import { Card } from 'react-bootstrap';
 import set from '../vector/seats.png';
 import lag from '../vector/lag.png';
-import { Button } from 'react-bootstrap';
+//import { Button } from 'react-bootstrap';
 import { useShoppingCart } from './cartContext';
 import './cars.css';
 

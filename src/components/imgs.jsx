@@ -1,4 +1,4 @@
-import React ,{Component}from 'react';
+import React /*,{Component}*/ from 'react';
 import car11 from '../imgs/car11.jpg';
 import car21 from '../imgs/car21.jpg';
 import car31 from '../imgs/car31.jpg';
@@ -8,9 +8,9 @@ import car32 from '../imgs/car32.jpg';
 import car13 from '../imgs/car13.jpg';
 import car23 from '../imgs/car23.jpg';
 import car33 from '../imgs/car33.jpg';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import './imgs.css'
-import { Nav } from 'react-bootstrap';
+//import { Nav } from 'react-bootstrap';
 
 const Imgs = () => {
   return (

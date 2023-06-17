@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Card } from 'react-bootstrap'
+import React /*, { useState }*/ from 'react'
+//import { Card } from 'react-bootstrap'
 import star from "../dataImgs/star.png";
 import annieCar from "../imgs/testimonials.jpg";
 import './testimonials.css';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Stack } from 'react-bootstrap';
+import { /*Button,*/ Stack } from 'react-bootstrap';
 import cars from '../data/data.json'
 import { useShoppingCart } from './cartContext'
 import rabish from '../vector/rabish.png'
@@ -7,7 +7,7 @@ import './cart.css';
 
 const CartItem = ({name ,quantity}) => {
 
-    const {increaseQuantity,decreaseQuantity,remove,cartItems} = useShoppingCart();
+    const {increaseQuantity,decreaseQuantity,remove/*,cartItems*/} = useShoppingCart();
 
     const cart = cars.find((item) => item.name === name);
     if(cart == null){return null;}

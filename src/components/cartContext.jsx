@@ -1,7 +1,7 @@
-import { Children, createContext, useContext, useEffect, useState } from "react";
+import { /*Children,*/ createContext, useContext, useEffect, useState } from "react";
 import React from 'react';
 import ShoppingCart from './shoppingCarts';
-import opinions from '../data/data2.json'
+//import opinions from '../data/data2.json'
 // import CartItem from "./cartItems";
 
     const intialCartItems =localStorage.getItem("shoppingCart")?JSON.parse(localStorage.getItem("shoppingCart")) : [];

@@ -1,12 +1,12 @@
-import React, {useState,useEffect} from 'react';
+import React, {useState/*,useEffect*/} from 'react';
 import './testimonials.css';
-import star from "../dataImgs/star.png";
-import annieCar from "../imgs/testimonials.jpg";
+//import star from "../dataImgs/star.png";
+//import annieCar from "../imgs/testimonials.jpg";
 import opinions from '../data/data2.json';
 //import point from "../dataImgs/test-point.png";
-import Footer from './footer';
-import { useShoppingCart } from './cartContext';
-import { Button, Col, Row } from 'react-bootstrap';
+//import Footer from './footer';
+//import { useShoppingCart } from './cartContext';
+import { Button /*, Col, Row */} from 'react-bootstrap';
 import Testimonial from './Testimonial';
 import right from '../carsImgs/last-right.png'
 import left from '../carsImgs/last-left.png'

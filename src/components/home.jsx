@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React /*,{ useState }*/ from 'react'
 import backgroundImage from '../carsImgs/background.png';
 import './home.css'
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import About from './about';
 import Services from './services';
 import CarList from './cars';
@@ -9,11 +9,11 @@ import Imgs from './imgs';
 import Testimonials from './testimonials';
 import Logoes from './logoes';
 import Footer from './footer';
-import { Button, Nav } from 'react-bootstrap';
+//import { Button, Nav } from 'react-bootstrap';
 
 const Home = () => {
  
-  const [showcars, setShowcars] = useState(false);
+  //const [showcars, setShowcars] = useState(false);
   
   return (
     <React.Fragment>
