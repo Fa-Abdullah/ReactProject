@@ -36,10 +36,11 @@ const App = () => {
       <Container className="container">
        
         <Routes>
-            <Route path="/home/" element={<Home />}/>
             <Route path="/" element={<Navigate replace to="/home/#hero" />} />
+            <Route path="/home/" element={<Home />}/>
             <Route path="/home" element={<Navigate replace to="/home/#hero" />} />
             <Route path="/reponame" element={<Navigate replace to="/home/#hero" />} />
+            <Route path="/ReactProject" element={<Navigate replace to="/home/#hero" />} />
             <Route path="/about" element={<About />}/>
             <Route path="/services" element={<Services />}/>
             <Route path="/cars" element={<CarList />}/>
@@ -48,6 +49,7 @@ const App = () => {
             <Route path="/logoes" element={<Logoes/>}/>
             <Route path="/imgs" element={<Imgs/>}/>
             <Route path="/display" element={<Display/>}/>
+            <Route path="/*" element={<Navigate replace to="/home/#hero" />} />
         </Routes>
 
        
